@@ -78,7 +78,7 @@ nostrGateway.onInit = async params => {
   const connectString = Buffer.from(`${relayUrl}:${secretKey}`).toString('base64url')
   const message = `Paste this connection string into your web app:\n\n${connectString}\n`
 
-  nostrGateway.emitter.log = (...msg) => nostrGateway.log(...msg)
+  nostrGateway.emitter.log = (msg) => nostrGateway.log(msg)
   registerListeners(nostrGateway)
 
   nostrGateway.emitter.connect('wss://' + relayUrl, secretKey)
