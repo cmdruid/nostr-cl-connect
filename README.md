@@ -1,5 +1,5 @@
 # nostr-cl-connect
-Magically connect to your node using Nostr.
+Magically connect to your core lightning node using Nostr.
 
 ## How to Use
 ```bash
