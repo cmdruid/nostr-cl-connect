@@ -1,0 +1,26 @@
+{
+  "name": "nostr-clightning-connect",
+  "version": "1.0.0",
+  "description": "Connect to your Core Lightning node using Nostr.",
+  "main": "plugin.js",
+  "keywords": [
+    "nostr",
+    "lightning",
+    "connect"
+  ],
+  "author": "Christopher Scott",
+  "license": "CC-BY-1.0",
+  "repositroy": "",
+  "publishConfig": {
+    "@cmdruid:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "plugin.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "clightningjs": "^0.2.2",
+    "nostr-emitter": "^1.0.11"
+  }
+}
